@@ -5,6 +5,11 @@
         https://www.springframework.org/schema/beans/spring-beans.xsd">
         
         <bean id="id1" class="springbasic.triangle">
-        	<property name="type" value="Equilateral triangle"/>
+        
+        	<constructor-arg value="isosceles"/>
+        	
+        	<constructor-arg value="20"/>
+        	
         </bean>  
+        
 </beans>
